@@ -4,7 +4,8 @@ A dynamic To-Do List Manager built with HTML, CSS, and JavaScript. Features incl
 
 A dynamic and feature-rich To-Do List Manager application built entirely with HTML, CSS, and vanilla JavaScript. This project demonstrates core JavaScript concepts such as DOM manipulation, event handling, and data persistence using the browser's LocalStorage.
 
-![To-Do Manager Screenshot](file:///C:/Users/dell/OneDrive/Documents/Desktop/To%20do%20List/index.html)
+![To-Do Manager Screenshot](![Screenshot (506)](https://github.com/user-attachments/assets/8cb2a18a-6b18-4faf-9ae9-c0a5ee38b0ec)
+)
 *Replace the link above with a path to your screenshot after you upload it!*
 
 ---

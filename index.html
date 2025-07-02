@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced To-Do Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="todo-app">
+            <h1>To-Do List <img src="https://i.imgur.com/8Q6oY3B.png" alt="icon"></h1>
+            <div class="add-task-container">
+                <input type="text" id="input-box" placeholder="Add your task">
+                <div class="task-options">
+                    <input type="date" id="due-date-input">
+                    <select id="priority-input">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                    <button id="add-btn">Add</button>
+                </div>
+            </div>
+            <div class="filters">
+                <button class="filter-btn active" id="filter-all">All</button>
+                <button class="filter-btn" id="filter-pending">Pending</button>
+                <button class="filter-btn" id="filter-completed">Completed</button>
+            </div>
+            <ul id="list-container"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
